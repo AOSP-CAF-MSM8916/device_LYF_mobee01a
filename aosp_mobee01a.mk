@@ -24,7 +24,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 # Inherit from mobee01a device
 $(call inherit-product, device/LYF/mobee01a/device.mk)
-
+$(call inherit-product, vendor/caf/config/common.mk)
 PRODUCT_NAME := aosp_mobee01a
 BOARD_VENDOR := LYF
 PRODUCT_DEVICE := mobee01a
